@@ -23,6 +23,7 @@ export default class YoyoBot {
     var date = new Date();
     var minutes = date.getMinutes();
     var seconds = date.getSeconds();
+    var hours = date.getHours();
     return hours > 8 && hours < 20 && minutes === 0 && seconds === 0;
   }
 
